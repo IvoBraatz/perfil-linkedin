@@ -1,0 +1,50 @@
+section.idiomas{
+    width: 780px;
+    height: 256px;
+    background-color: var(--fundo-card);
+    border-radius: 0.8rem;
+    line-height: 1.25;
+    margin-top: 8px;
+}
+
+
+.idioma {
+    display: block;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.card-idiomas{
+    padding: 1rem 1.6rem;
+    font-size: 1rem;
+}
+
+.idioma>div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.idioma>div>p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.idioma>div>span{
+    color: var(--texto-secundario);
+    width: 78px;
+    height: 16px;
+}
+
+.ingles,
+.espanhol,
+.alemao :last-child{
+    padding-top: 0.5rem;
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+.alemao{
+    padding-top: 0.5rem;
+}
+

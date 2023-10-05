@@ -1,0 +1,46 @@
+section.formacao-academica{
+    width: 782px;
+    margin-top: 8px;
+    background-color: var(--fundo-card);
+    border-radius: 0.8rem;
+    line-height: 1.25;
+}
+
+.formacao-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.instituicao {
+    display: flex;
+    align-items: center; 
+}
+
+.instituicao img{
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+
+.card-formacao{
+    padding: 1rem 1.6rem;
+    font-size: 1rem;
+}
+ 
+.instituicao>div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+  
+.instituicao>div>p{
+    font-weight: 600;
+    font-size: 16px;
+}
+  
+.instituicao>div>span{
+    color: var(--texto-secundario);
+    width: 78px;
+    height: 16px;
+}
+
